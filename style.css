@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightseagreen;
+}
+.container{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: white;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 12px 12px  gray;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.sub_container_1{
+  position: absolute;
+  width: 90%;
+  height: 40%;
+  background-color: white ;
+  margin-top: 25px;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 12px 12px  gray;
+}
+.sub_container_1 #img1{
+    position: absolute;
+  width: 90px;
+  top:25%;
+  cursor: pointer;
+  transition: 1s;
+}
+#img1:hover{
+    transform:scale(1.5);
+
+}
+.sub_container_1 h3{
+position: absolute;
+ margin-left: 140px;
+ top: 48%;
+ font-size: x-large;
+}
+#minusIcon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    top: 47%;
+    left: 60%;
+    cursor: pointer;
+}
+#minusIcon #line1{
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    margin-top: 12px;
+    margin-left: -1px;
+    
+}
+#count_1{
+    position: absolute;
+    left: 65%;
+    top: 47%;
+    font-size: x-large;
+}
+#plusIcon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    top: 48%;
+    left: 68%;
+    cursor: pointer;
+}
+#plusIcon #line2{
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    top: 12px;
+}
+#plusIcon #line3{
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: white;
+    left: 11px;
+    top: 1px;
+}
+#price{
+    position: absolute;
+    top: 48%;
+    left: 80%;
+    font-size: x-large;
+}
+.sub_container_2{
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    background-color: white ;
+    margin-top: 210px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 12px 12px  gray;
+}
+.sub_container_2 #case{
+    position: absolute;
+    width: 80px;
+    top:20%;
+     left: 3%;
+     transition: 1s;
+}
+#case:hover{
+    transform: scale(1.5);
+}
+.sub_container_2 h3{
+    position: absolute;
+    left: 18%;
+    top: 42%;
+    font-size: x-large;
+}
+#pi{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    top: 42%;
+    left: 60%;
+    cursor: pointer;
+}
+#pi #line4{
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    margin-top: 12px;
+    margin-left: -1px;
+}
+#count_2{
+    position: absolute;
+    left: 64.5%;
+    top: 42%;
+    font-size: x-large;
+}
+#secPlusIcon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    top: 42%;
+    left: 67.3%;
+    cursor: pointer;
+    
+}
+#secPlusIcon #line5{
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    top: 12px;
+}
+#secPlusIcon #line6{
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: white;
+    left: 11.87px;
+    top: 1px;
+}
+#casePrice{
+position: absolute;
+top: 42%;
+left: 80%;
+font-size: x-large;
+}
+.totalPay{
+    position: relative;
+    width:300px;
+    height: 200px;
+    background-color: white;
+    left: 74%;
+    margin-top: -410px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 12px 12px  gray;
+
+}
+.totalPay h1{
+    text-align: center;
+}
+.totalPay #underLine_1{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border: 1px solid black;
+    border: dashed;
+}
+.totalPay ul{
+    position: absolute;
+    list-style: none;
+    top: 75px;
+    left: 13px;
+    font-size: larger;
+
+}
+.totalPay #equalSign{
+    position: absolute;
+    left: 150%;
+}
+.totalPay #equal{
+    position: absolute;
+    left: 150%;
+}
+.totalPay #amount_1{
+    position: absolute;
+    left: 180%;
+}
+.totalPay #equal_1{
+    position: absolute;
+    left: 150%;
+}
+.totalPay #sign{
+    position: absolute;
+    left: 166%;
+}
+.totalPay #amount_2{
+    position: absolute;
+    left: 180%;
+}
+.totalPay #underLine_2{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border: 1px solid black;
+    top: 70%;
+}
+.totalPay #equal_2{
+    position: absolute;
+    left: 57%;
+    top: 70%;
+}
+.totalPay #sign_1{
+    position: absolute;
+    left: 62%;
+    top: 70%;
+}
+.totalPay #count_3{
+    position: absolute;
+    left: 67%;
+    top: 70%;
+}
+#button{
+    position: relative;
+    left: 82%;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    padding: 30px;
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#button h3{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+#secPage{
+    width: 500px;
+    height: 230px;
+    background-color: lightblue;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 11%;
+    margin-left: 30%;
+    display: none;
+    box-shadow: 10px 10px 12px 12px;
+
+}
+#secPage h4{
+    text-align: center;
+    position: absolute;
+    font-size: x-large;
+}
+h4{
+    top: 30%;
+    left: 5%;
+}
